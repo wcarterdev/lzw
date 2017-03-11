@@ -62,6 +62,7 @@ var lzw = {
             dict[dict_size++] = w + word.charAt(0);
             w = word;
         }
+        
         return result;
     }
 }
